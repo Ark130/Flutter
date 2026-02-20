@@ -23,19 +23,19 @@ class HomeScreen extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: Icon(Icons.table_bar),
-              title: Text('Rows y Columns'),
+              leading: Icon(Icons.person),
+              title: Text('Containerss'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap:(){
-
+                Navigator.pushNamed(context, '/containers');
               },
             ),
             ListTile(
-              leading: Icon(Icons.square),
-              title: Text('Containers'),
+              leading: Icon(Icons.person),
+              title: Text('Rows y Columns'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap:(){
-
+                Navigator.pushNamed(context, '/rows-columns');
               },
             )
           ],
